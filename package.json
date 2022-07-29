@@ -1,0 +1,60 @@
+{
+    "id": "uni-template-news",
+    "name": "新闻资讯App模板",
+    "displayName": "新闻资讯App模板",
+    "version": "3.1.7",
+    "description": "基于uni-app开发的新闻/资讯类App模板",
+    "keywords": [
+        "模板",
+        "新闻",
+        "资讯",
+        "nvue",
+        "新闻模板"
+    ],
+    "dcloudext": {
+        "category": [
+            "前端页面模板",
+            "uni-app前端项目模板"
+        ]
+    },
+	"uni-app": {
+		"scripts": {
+			"development": {
+				"title": "备忘录开发环境",
+				"env": {
+					"UNI_PLATFORM": "h5",
+					"VUE_APP_BASE_URL":"http://127.0.0.1:8080/"
+				}
+			},
+			"dev": {
+				"title": "备忘录dev",
+				"env": {
+					"UNI_PLATFORM": "h5",
+					"VUE_APP_BASE_URL":"http://127.0.0.1:8080/"
+				}
+			},
+			"sit": {
+				"title": "备忘录sit",
+				"env": {
+					"UNI_PLATFORM": "h5",
+					"VUE_APP_BASE_URL":"http://127.0.0.1:8080/"
+				}
+			},
+			"uat": {
+				"title": "备忘录uat",
+				"env": {
+					"UNI_PLATFORM": "h5",
+					"VUE_APP_BASE_URL":"http://127.0.0.1:8080/"
+				}
+			},
+			"prod": {
+				"title": "备忘录prod",
+				"env": {
+					"UNI_PLATFORM": "h5",
+					"VUE_APP_BASE_URL":"http://127.0.0.1:8080/"
+				}
+			}
+		}
+	}
+
+}
